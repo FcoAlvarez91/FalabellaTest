@@ -36,4 +36,20 @@ Unix based:
 
     mvwn spring-boot:run 
 
-Go to localhost:8080
+Go to localhost:8080/product
+
+The application recieves and returns jsons through the HTTP protocol.
+
+## Example
+
+For adding a new product, POST with a json body of:
+
+    {
+        "id" : 1,
+        "sku": "FAL-881898503",
+        "name": "Camisa Manga Corta Hombre",
+        "brand": "Basement",
+        "size": "M",
+        "price": 24990,
+        "mainImage": "https://falabella.scene7.com/is/image/Falabella/881898502_1"
+    }

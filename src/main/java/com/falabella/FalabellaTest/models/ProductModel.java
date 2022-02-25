@@ -32,6 +32,9 @@ public class ProductModel {
     private String otherImages;
 
 
+    public ProductModel() {}
+
+
     public ProductModel(Long id, String sku, String name, String brand, String size, Long price, String mainImage, String otherImages) {
         this.id = id;
         this.sku = sku;

@@ -40,7 +40,7 @@ Go to localhost:8080/product
 
 The application recieves and returns jsons through the HTTP protocol.
 
-## Example
+## Examples
 
 For adding a new product, POST with a json body of:
 
@@ -53,3 +53,7 @@ For adding a new product, POST with a json body of:
         "price": 24990,
         "mainImage": "https://falabella.scene7.com/is/image/Falabella/881898502_1"
     }
+
+For finding products by SKU, GET to:
+
+    http://localhost:8080/product/querry?sku=FAL-881898503
